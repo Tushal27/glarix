@@ -1,32 +1,34 @@
 import React from 'react';
-import lolo from '../pics/hero1.png';
-const HeroSection = () => {
+import heroImg from '../pics/hero.jpg';
+export default function Hero() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between bg-gray-100 h-[400px] px-8 md:px-16">
-      {/* Left Side: Text and Button */}
-      <div className="flex flex-col space-y-4 md:w-1/2">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-          Find Your Perfect Vision with <span className="text-blue-900">Glarix</span>
-        </h1>
-        <p className="text-lg text-gray-600">
-          Stylish. Durable. Affordable. Discover premium lenses crafted to fit your lifestyle.
-        </p>
-        <button className="bg-blue-900 text-white font-semibold py-3 px-6 rounded-lg w-max hover:bg-blue-800 transition">
-          Explore Collection
-        </button>
-      </div>
+    <section className="bg-light py-5" id="hero">
+      <div className="container " >
+        <div className="row align-items-center molo">
+          {/* Text Section */}
+          <div className="col-md-6 text-center text-md-start mb-4 mb-md-0" >
+            <h1 className="display-5 fw-bold text-primary">
+              Find Your Perfect Vision with Glarix
+            </h1>
+            <p className="lead text-muted mt-3 mb-4">
+              Stylish. Durable. Affordable. Discover premium lenses crafted to fit your lifestyle.
+            </p>
+            <a href="#products" className="btn btn-primary btn-lg shadow-sm">
+              Explore Collection
+            </a>
+          </div>
 
-      {/* Right Side: Image */}
-      <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-        {/* Replace with your image path or URL */}
-        <img
-          src={lolo} // Add the actual image path here
-          alt="Person wearing glasses"
-          className="h-[300px] md:h-[350px] object-cover rounded-lg"
-        />
+          {/* Image Section */}
+          <div className="col-md-6 text-center">
+            <img
+              className ='rounded-circle shadow-sm fluid '         
+              src={heroImg}
+              alt="Stylish eyewear"
+              style={{ maxHeight: '400px', objectFit: 'cover'}}
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default HeroSection;
+}

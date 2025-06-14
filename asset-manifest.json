@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/glarix/static/css/main.00c35f77.css",
-    "main.js": "/glarix/static/js/main.1d7f8fef.js",
+    "main.css": "/glarix/static/css/main.e7450963.css",
+    "main.js": "/glarix/static/js/main.2b6a6604.js",
     "static/js/453.a99e7709.chunk.js": "/glarix/static/js/453.a99e7709.chunk.js",
-    "static/media/hero1.png": "/glarix/static/media/hero1.a1bfb88d286b99e122ce.png",
+    "static/media/hero.jpg": "/glarix/static/media/hero.186a83203669ea3a12ed.jpg",
     "static/media/product12.jpg": "/glarix/static/media/product12.242d30231f6242d31712.jpg",
     "static/media/product5.jpg": "/glarix/static/media/product5.574db715113bfdd18d9d.jpg",
     "static/media/product10.jpg": "/glarix/static/media/product10.201d51344e2e79778f94.jpg",
@@ -18,12 +18,12 @@
     "static/media/product3.jpg": "/glarix/static/media/product3.ba3894dbeaa635b0c482.jpg",
     "static/media/glarix-logo.jpg": "/glarix/static/media/glarix-logo.86ed5c4c41474c173799.jpg",
     "index.html": "/glarix/index.html",
-    "main.00c35f77.css.map": "/glarix/static/css/main.00c35f77.css.map",
-    "main.1d7f8fef.js.map": "/glarix/static/js/main.1d7f8fef.js.map",
+    "main.e7450963.css.map": "/glarix/static/css/main.e7450963.css.map",
+    "main.2b6a6604.js.map": "/glarix/static/js/main.2b6a6604.js.map",
     "453.a99e7709.chunk.js.map": "/glarix/static/js/453.a99e7709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00c35f77.css",
-    "static/js/main.1d7f8fef.js"
+    "static/css/main.e7450963.css",
+    "static/js/main.2b6a6604.js"
   ]
 }
